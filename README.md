@@ -1,4 +1,4 @@
-# Amazons# Amazons
+# Amazons
 > Simple webpage board game
  ## Rules
   - You can check them by watching this Numberphile video: https://www.youtube.com/watch?v=kjSOSeRZVNg&t=313s&ab_channel=Numberphile
