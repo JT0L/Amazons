@@ -1,0 +1,80 @@
+body{
+    background: rgb(247, 247, 247);
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.squareB{
+    background: rgb(136, 89, 43);
+}
+
+.squareW{
+    background: rgb(211, 181, 117);
+}
+
+.pW{
+  width: 70px;
+  height: 70px;
+  background: white;
+  border-radius: 50%
+}
+
+.pB{
+    width: 70px;
+    height: 70px;
+    background: black;
+    border-radius: 50%
+}
+
+.pG{
+    width: 40px;
+    height: 40px;
+    background: rgba(51, 153, 30, 0.63);
+    border-radius: 50%
+}
+
+.pR{
+    width: 40px;
+    height: 40px;
+    background: rgba(212, 38, 38, 0.63);
+    border-radius: 50%
+}
+
+.squareFire{
+    background: rgb(228, 23, 23);
+}
+
+button{
+    color: rgba(0,0,0,1);
+    width: 90px;
+    height: 90px;
+}
+
+.popup-wrapper{
+ background: rgba(0,0,0,0.5);
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+.popup{
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    margin:  10% auto;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    position: relative;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    background: rgba(58, 245, 83, 0.63);
+    border-radius: 50%
+}
