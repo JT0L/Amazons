@@ -18,11 +18,11 @@ var yChosen = null;
 
 function checkTileType(x,y){ // checks if tile with coordinates x, y is white or black
     if((x+y)%2){
-        squareType = "squareB"
+        squareType = "squareB";
     } else{
-        squareType = "squareW"
+        squareType = "squareW";
     }
-    return squareType
+    return squareType;
 }
 
 
@@ -52,7 +52,7 @@ const drawBoard = () => {  // function drawing the board
     for(i=0; i<=7; i++){
         for(j=0; j<=7; j++){
 
-            squareType = checkTileType(i, j)
+            squareType = checkTileType(i, j);
 
             switch(board[i][j]){
                 case 0:  // empty
@@ -159,7 +159,7 @@ const showDot = (x,y,dotType) => {  // shows possible turn dot
     const s = document.getElementById(`${x}-${y}`);
     s.remove(); // first removes old tiles
 
-    squareType = checkTileType(x, y)
+    squareType = checkTileType(x, y);
         
     cont.innerHTML += `
                             <div class="${squareType}" id="${x}-${y}" style="height: ${side}px; width: ${side}px; position:absolute; left: ${x0+x*side}px; top: ${y0+y*side}px;">
@@ -197,12 +197,12 @@ const changePlaceofPiece = (x_dest,y_dest) => { // changes position of the piece
 
 
 const updatePiece = (x,y,t) =>{  // updates graphics for tile - now with the piece
-    squareType = checkTileType(x,y)
+    squareType = checkTileType(x,y);
 
     if (t==1){
-        pType = "pW"
+        pType = "pW";
     } else{
-        pType = "pB"
+        pType = "pB";
     }
 
     cont.innerHTML += `
